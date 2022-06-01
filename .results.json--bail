@@ -1,0 +1,158 @@
+{
+  "stats": {
+    "suites": 5,
+    "tests": 7,
+    "passes": 0,
+    "pending": 0,
+    "failures": 7,
+    "start": "2022-06-01T11:44:20.549Z",
+    "end": "2022-06-01T11:44:20.731Z",
+    "duration": 182
+  },
+  "tests": [
+    {
+      "title": "receives one argument and returns it in all caps",
+      "fullTitle": "shout(string) receives one argument and returns it in all caps",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: shout is not defined\n    at Context.<anonymous> (test/index-test.js:4:5)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "shout is not defined"
+      }
+    },
+    {
+      "title": "receives one argument and returns it in all lowercase",
+      "fullTitle": "whisper(string) receives one argument and returns it in all lowercase",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: whisper is not defined\n    at Context.<anonymous> (test/index-test.js:10:5)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "whisper is not defined"
+      }
+    },
+    {
+      "title": "takes a string argument and logs it in all caps using console.log()",
+      "fullTitle": "logShout(string) takes a string argument and logs it in all caps using console.log()",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: logShout is not defined\n    at Context.<anonymous> (test/index-test.js:18:5)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "logShout is not defined"
+      }
+    },
+    {
+      "title": "takes a string argument and logs it in all lowercase using console.log()",
+      "fullTitle": "logWhisper(string) takes a string argument and logs it in all lowercase using console.log()",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: logWhisper is not defined\n    at Context.<anonymous> (test/index-test.js:30:5)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "logWhisper is not defined"
+      }
+    },
+    {
+      "title": "returns \"I can't hear you!\" if `string` is lowercase",
+      "fullTitle": "sayHiToHeadphonedRoommate(string) returns \"I can't hear you!\" if `string` is lowercase",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: sayHiToHeadphonedRoommate is not defined\n    at Context.<anonymous> (test/index-test.js:40:5)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "sayHiToHeadphonedRoommate is not defined"
+      }
+    },
+    {
+      "title": "returns \"YES INDEED!\" if `string` is uppercase",
+      "fullTitle": "sayHiToHeadphonedRoommate(string) returns \"YES INDEED!\" if `string` is uppercase",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: sayHiToHeadphonedRoommate is not defined\n    at Context.<anonymous> (test/index-test.js:44:5)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "sayHiToHeadphonedRoommate is not defined"
+      }
+    },
+    {
+      "title": "returns \"I would love to!\" if `string` is \"Let's have dinner together!\"`",
+      "fullTitle": "sayHiToHeadphonedRoommate(string) returns \"I would love to!\" if `string` is \"Let's have dinner together!\"`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: sayHiToHeadphonedRoommate is not defined\n    at Context.<anonymous> (test/index-test.js:48:5)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "sayHiToHeadphonedRoommate is not defined"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "receives one argument and returns it in all caps",
+      "fullTitle": "shout(string) receives one argument and returns it in all caps",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: shout is not defined\n    at Context.<anonymous> (test/index-test.js:4:5)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "shout is not defined"
+      }
+    },
+    {
+      "title": "receives one argument and returns it in all lowercase",
+      "fullTitle": "whisper(string) receives one argument and returns it in all lowercase",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: whisper is not defined\n    at Context.<anonymous> (test/index-test.js:10:5)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "whisper is not defined"
+      }
+    },
+    {
+      "title": "takes a string argument and logs it in all caps using console.log()",
+      "fullTitle": "logShout(string) takes a string argument and logs it in all caps using console.log()",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: logShout is not defined\n    at Context.<anonymous> (test/index-test.js:18:5)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "logShout is not defined"
+      }
+    },
+    {
+      "title": "takes a string argument and logs it in all lowercase using console.log()",
+      "fullTitle": "logWhisper(string) takes a string argument and logs it in all lowercase using console.log()",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: logWhisper is not defined\n    at Context.<anonymous> (test/index-test.js:30:5)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "logWhisper is not defined"
+      }
+    },
+    {
+      "title": "returns \"I can't hear you!\" if `string` is lowercase",
+      "fullTitle": "sayHiToHeadphonedRoommate(string) returns \"I can't hear you!\" if `string` is lowercase",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: sayHiToHeadphonedRoommate is not defined\n    at Context.<anonymous> (test/index-test.js:40:5)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "sayHiToHeadphonedRoommate is not defined"
+      }
+    },
+    {
+      "title": "returns \"YES INDEED!\" if `string` is uppercase",
+      "fullTitle": "sayHiToHeadphonedRoommate(string) returns \"YES INDEED!\" if `string` is uppercase",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: sayHiToHeadphonedRoommate is not defined\n    at Context.<anonymous> (test/index-test.js:44:5)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "sayHiToHeadphonedRoommate is not defined"
+      }
+    },
+    {
+      "title": "returns \"I would love to!\" if `string` is \"Let's have dinner together!\"`",
+      "fullTitle": "sayHiToHeadphonedRoommate(string) returns \"I would love to!\" if `string` is \"Let's have dinner together!\"`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: sayHiToHeadphonedRoommate is not defined\n    at Context.<anonymous> (test/index-test.js:48:5)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "sayHiToHeadphonedRoommate is not defined"
+      }
+    }
+  ],
+  "passes": []
+}
